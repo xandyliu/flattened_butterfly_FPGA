@@ -1,2 +1,1 @@
-# flattened_butterfly_FPGA
- 
+# ICN_Butterly_topology_fpga

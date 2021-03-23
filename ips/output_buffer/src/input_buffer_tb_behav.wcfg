@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="input_buffer_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="input_buffer_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="60000001fs"></ZoomEndTime>
+      <Cursor1Time time="4652000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="175"></NameColumnWidth>
+      <ValueColumnWidth column_width="138"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="10" />
+   <wvobject type="logic" fp_name="/input_buffer_tb/clk">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/input_buffer_tb/en">
+      <obj_property name="ElementShortName">en</obj_property>
+      <obj_property name="ObjectShortName">en</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/input_buffer_tb/data">
+      <obj_property name="ElementShortName">data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">data[7:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/input_buffer_tb/data_buf">
+      <obj_property name="ElementShortName">data_buf[4:0][7:0]</obj_property>
+      <obj_property name="ObjectShortName">data_buf[4:0][7:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/input_buffer_tb/data_stored">
+      <obj_property name="ElementShortName">data_stored</obj_property>
+      <obj_property name="ObjectShortName">data_stored</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/input_buffer_tb/addr">
+      <obj_property name="ElementShortName">addr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">addr[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/input_buffer_tb/DATA_W">
+      <obj_property name="ElementShortName">DATA_W[31:0]</obj_property>
+      <obj_property name="ObjectShortName">DATA_W[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/input_buffer_tb/SLOTS">
+      <obj_property name="ElementShortName">SLOTS[31:0]</obj_property>
+      <obj_property name="ObjectShortName">SLOTS[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/input_buffer_tb/mem_file">
+      <obj_property name="ElementShortName">mem_file[63:0]</obj_property>
+      <obj_property name="ObjectShortName">mem_file[63:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/input_buffer_tb/dut/out_buf">
+      <obj_property name="ElementShortName">out_buf[4:0][7:0]</obj_property>
+      <obj_property name="ObjectShortName">out_buf[4:0][7:0]</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+</wave_config>
